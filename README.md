@@ -2,7 +2,7 @@
 
 A Django application for publishing episodic fiction.
 
-**Live Project Repository:** [https://github.com/UlrikeDetective/Serialized](https://github.com/UlrikeDetective/Serialized)
+**Live Project:** [https://github.com/UlrikeDetective/Serialized](https://github.com/UlrikeDetective/Serialized)
 
 ## Key Features
 - **Organized Hierarchy**: Manage data through Story and Chapter relationships.
@@ -19,4 +19,4 @@ A Django application for publishing episodic fiction.
 - Custom CSS (Modern Hacker / Minimalist)
 
 ---
-*Developer state for this phase ends here.*
+*Production state*
