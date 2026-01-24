@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Serialized{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'stories/style.css' %}">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="{% url 'stories:story_list' %}" class="brand">
+                Serialized<span class="cursor"></span>
+            </a>
+        </div>
+        <nav>
+            <a href="{% url 'stories:story_list' %}">Index</a>
+            <!-- Placeholder for future About/Login links -->
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>SYSTEM.READY // © {% now "Y" %} Serialized Platform</p>
+    </footer>
+</body>
+</html>
