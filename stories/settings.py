@@ -1,4 +1,5 @@
 import os
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,7 +23,21 @@ SECRET_KEY = os.environ.get('SECRET', 'django-insecure-default-dev-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Get the Koyeb domain from the environment, default to localhost for development
+KOYEB_DOMAIN = os.environ.get("KOYEB_PUBLIC_DOMAIN")
+
+if KOYEB_DOMAIN:
+    # On the live server
+    ALLOWED_HOSTS = [KOYEB_DOMAIN, "www.yourcustomdomain.com"]
+else:
+    # Locally on your computer
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0"]
+
+# Trust the domain for secure forms (CSRF)
+if KOYEB_DOMAIN:
+    CSRF_TRUSTED_ORIGINS = [f"https://{KOYEB_DOMAIN}"]
+    # If you add a custom domain later, add it here too:
+    # CSRF_TRUSTED_ORIGINS.append("https://www.yourcustomdomain.com")
 
 # Application definition
 INSTALLED_APPS = [
@@ -69,10 +84,11 @@ WSGI_APPLICATION = 'stories.wsgi.application'
 
 # Database
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        # This looks for an environment variable named DATABASE_URL
+        default='sqlite:///db.sqlite3', 
+        conn_max_age=600
+    )
 }
 
 # Password validation
