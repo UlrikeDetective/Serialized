@@ -21,17 +21,14 @@ if env_path.exists():
 SECRET_KEY = os.environ.get('SECRET', 'django-insecure-default-dev-key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-# Get the Koyeb domain from the environment, default to localhost for development
+# Get the Koyeb domain from the environment
 KOYEB_DOMAIN = os.environ.get("KOYEB_PUBLIC_DOMAIN")
 
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0"]
 if KOYEB_DOMAIN:
-    # On the live server
-    ALLOWED_HOSTS = [KOYEB_DOMAIN, "www.yourcustomdomain.com"]
-else:
-    # Locally on your computer
-    ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0"]
+    ALLOWED_HOSTS.append(KOYEB_DOMAIN)
 
 # Trust the domain for secure forms (CSRF)
 if KOYEB_DOMAIN:
