@@ -1,6 +1,23 @@
-Django>=5.0
-python-dotenv
-whitenoise
-gunicorn
-dj-database-url
-psycopg2-binary
+APScheduler==3.11.2
+asgiref @ file:///opt/miniconda3/conda-bld/asgiref_1760342057031/work
+click==8.3.1
+dj-database-url==3.1.0
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1767812752244/work
+django-apscheduler==0.7.0
+django-extensions==4.1
+django-filter==25.2
+django-htmx==1.27.0
+djangorestframework==3.16.1
+joblib==1.5.3
+Markdown==3.10.1
+nltk==3.9.2
+pillow==12.1.0
+python-dotenv==1.2.1
+regex==2026.1.15
+setuptools==80.9.0
+sqlparse @ file:///opt/miniconda3/conda-bld/sqlparse_1764240028269/work
+textblob==0.19.0
+tqdm==4.67.1
+tzlocal==5.3.1
+wheel==0.45.1
+whitenoise==6.11.0
