@@ -1,3 +1,4 @@
+
 # Web Framework & Django Ecosystem
 Django>=5.1.0,<5.2.0
 djangorestframework>=3.15.0
