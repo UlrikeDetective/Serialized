@@ -7,12 +7,6 @@ writing stories, and publishing them to your website on GitHub Pages.
 write in the admin. When you publish, GitHub turns the site into plain HTML pages
 and puts them online at https://ulrikedetective.github.io/Serialized/.
 
-All commands are typed in the Terminal, inside the project folder:
-
-```sh
-cd ~/projects/Django/Django_Serialized
-```
-
 ---
 
 ## Part 1: One-time setup on your computer
