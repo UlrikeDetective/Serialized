@@ -1,0 +1,54 @@
+name: Build and deploy site
+
+on:
+  # Rebuild whenever you push changes
+  push:
+    branches: [main]
+  # Rebuild every day so chapters appear on their publish date
+  schedule:
+    - cron: "0 6 * * *"
+  # Allow a manual rebuild from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DEBUG: "False"
+      SITE_PREFIX: ${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Load stories into a fresh database
+        run: |
+          python manage.py migrate --verbosity 0
+          python manage.py loaddata stories
+      - name: Export static site
+        run: python manage.py distill generate --collectstatic --force --output-directory site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/${{ github.event.repository.name }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

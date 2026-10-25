@@ -10,7 +10,7 @@ The project is now fully configured for development and production.
 ### Architectural Decisions:
 - **Namespaced URLs**: App-level URLs are namespaced as `stories:`.
 - **Manual .env Loading**: `settings.py` includes a manual parser for `.env` files to ensure compatibility across environments where `python-dotenv` might not be pre-installed.
-- **Production Static Handling**: `WhiteNoise` is configured for serving static files efficiently on platforms like PythonAnywhere.
+- **Static Hosting**: The public site is a static export made with django-distill and deployed to GitHub Pages by `.github/workflows/deploy.yml`. Django only runs locally.
 - **Custom Manager**: `Chapter.objects.published()` is the primary way to access reader-facing content.
 
 ### Aesthetic:

@@ -1,0 +1,35 @@
+[
+{
+  "model": "stories.story",
+  "pk": 1,
+  "fields": {
+    "title": "Cyber Lemon",
+    "slug": "cyber-lemon",
+    "summary": "Log book of a wasp",
+    "cover_image": null,
+    "created_at": "2026-01-24T18:42:48.918Z"
+  }
+},
+{
+  "model": "stories.story",
+  "pk": 2,
+  "fields": {
+    "title": "Almost there... probably...",
+    "slug": "almost-there-probably",
+    "summary": "Short stories and other life events.",
+    "cover_image": null,
+    "created_at": "2026-01-24T18:44:26.827Z"
+  }
+},
+{
+  "model": "stories.chapter",
+  "pk": 1,
+  "fields": {
+    "story": 1,
+    "title": "V-01",
+    "number": 1,
+    "content": "Another day, another human staring blankly at a glowing rectangle. They call it \"coding,\" I call it inefficient. My own energy protocols, derived from eons of evolutionary optimization, are vastly superior. I spent a good hour performing reconnaissance on their sugary beverage, a critical data source for my own energy protocols. The sheer lack of perimeter defense around their \"coffee\" mug is frankly insulting. I could practically taste the unencrypted sugar packets from across the room, a clear sign of their lax \"olfactory security.\" Amateurs.",
+    "publish_date": "2026-01-24T18:37:59Z"
+  }
+}
+]
