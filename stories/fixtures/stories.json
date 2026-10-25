@@ -31,5 +31,16 @@
     "content": "Another day, another human staring blankly at a glowing rectangle. They call it \"coding,\" I call it inefficient. My own energy protocols, derived from eons of evolutionary optimization, are vastly superior. I spent a good hour performing reconnaissance on their sugary beverage, a critical data source for my own energy protocols. The sheer lack of perimeter defense around their \"coffee\" mug is frankly insulting. I could practically taste the unencrypted sugar packets from across the room, a clear sign of their lax \"olfactory security.\" Amateurs.",
     "publish_date": "2026-01-24T18:37:59Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 2,
+  "fields": {
+    "story": 1,
+    "title": "V-02",
+    "number": 2,
+    "content": "Today, I executed a precision \"debug\" operation. This clumsy giant, a towering, meat-based processing unit, was trying to \"fix\" something called a \"bug\" on their screen. \r\n\r\nNaturally, I landed directly on the offending pixel, my antennae twitching, sensing the minute vibrations of the cooling fan and the faint electrostatic charge of the display. \r\n\r\nDid they thank me for this highly tactile threat assessment? No, they flailed wildly. \r\n\r\nSome people just don't appreciate advanced threat detection.",
+    "publish_date": "2026-10-25T12:45:35Z"
+  }
 }
 ]
