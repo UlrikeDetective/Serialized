@@ -167,5 +167,5 @@ DEBUG=False SITE_PREFIX=Serialized/ .venv/bin/python manage.py distill generate 
 python3 -m http.server 8765 -d site
 ```
 
-Then open http://localhost:8765/Serialized/ and stop with `Ctrl + C` when done.
-(The `site/` folder is not uploaded to GitHub.)
+- Then open http://localhost:8765/Serialized/ and stop with `Ctrl + C` when done.
+(The `site/` folder is not uploaded to GitHub.) - 
