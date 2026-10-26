@@ -42,5 +42,16 @@
     "content": "Today, I executed a precision \"debug\" operation. This clumsy giant, a towering, meat-based processing unit, was trying to \"fix\" something called a \"bug\" on their screen. \r\n\r\nNaturally, I landed directly on the offending pixel, my antennae twitching, sensing the minute vibrations of the cooling fan and the faint electrostatic charge of the display. \r\n\r\nDid they thank me for this highly tactile threat assessment? No, they flailed wildly. \r\n\r\nSome people just don't appreciate advanced threat detection.",
     "publish_date": "2026-10-25T12:45:35Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 3,
+  "fields": {
+    "story": 1,
+    "title": "V-03",
+    "number": 3,
+    "content": "My latest penetration test of the \"kitchen\" server room was a resounding success. \r\n\r\nManaged to bypass the complex \"plastic wrap\" firewall, a flimsy membrane with surprisingly weak tensile  strength, and access the highly sensitive \"jam\" database. The human's security protocols are laughable;  they rely on sticky tape and flimsy lids, clearly a novice's attempt at access control. \r\n\r\nThe very air around  the jam, thick with a sweet, fermenting data signature, practically invited a breach. Clearly, they've never  encountered a true zero-day exploit, or perhaps just a properly motivated attacker.",
+    "publish_date": "2026-10-26T06:35:46Z"
+  }
 }
 ]
