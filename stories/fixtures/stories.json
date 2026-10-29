@@ -75,5 +75,16 @@
     "content": "The human just spent hours trying to \"optimize\" their \"system performance.\" Pathetic. I, on the other hand, simply followed the invisible chemical trail of a spilled crumb, flew directly to the nearest sugar source, refueled, and returned to my nest, all without a single line of code or a \"compiler error.\" \r\n\r\nMy internal navigation system, guided by ancient, unerring instincts, is far superior to their GPS. \r\n\r\nThey're so dependent on their machines; they're merely fleshy extensions of their \"networks.\" I, however, am pure, self-replicating, organic processing power, completely self-sufficient.",
     "publish_date": "2026-10-28T06:29:06Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 6,
+  "fields": {
+    "story": 1,
+    "title": "V-06",
+    "number": 6,
+    "content": "I woke up today with a peculiar sensation. My compound eyes, usually a marvel of multi-faceted data acquisition, seemed to be processing input in an entirely new, fragmented way. The human's \"keyboard\" now appears as a sprawling, shifting landscape of black mountains, each one vibrating with a faint, rhythmic pulse. \r\n\r\nAnd was that... a tiny, glowing cursor, scuttling across what felt like my own abdomen? Perhaps the \r\nvery \"space-time\" continuum around me is reconfiguring itself, or perhaps it's a new, insidious \r\nhuman \"firewall\" against my senses. It's all rather disorienting. My processing units are overheating.",
+    "publish_date": "2026-10-29T06:19:29Z"
+  }
 }
 ]
