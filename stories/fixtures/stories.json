@@ -86,5 +86,16 @@
     "content": "I woke up today with a peculiar sensation. My compound eyes, usually a marvel of multi-faceted data acquisition, seemed to be processing input in an entirely new, fragmented way. The human's \"keyboard\" now appears as a sprawling, shifting landscape of black mountains, each one vibrating with a faint, rhythmic pulse. \r\n\r\nAnd was that... a tiny, glowing cursor, scuttling across what felt like my own abdomen? Perhaps the \r\nvery \"space-time\" continuum around me is reconfiguring itself, or perhaps it's a new, insidious \r\nhuman \"firewall\" against my senses. It's all rather disorienting. My processing units are overheating.",
     "publish_date": "2026-10-29T06:19:29Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 7,
+  "fields": {
+    "story": 1,
+    "title": "V-07",
+    "number": 7,
+    "content": "I hate spiders!",
+    "publish_date": "2026-10-30T06:40:17Z"
+  }
 }
 ]
