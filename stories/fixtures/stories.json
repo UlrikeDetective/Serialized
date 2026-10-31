@@ -97,5 +97,16 @@
     "content": "I hate spiders!",
     "publish_date": "2026-10-30T06:40:17Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 8,
+  "fields": {
+    "story": 1,
+    "title": "V-08",
+    "number": 8,
+    "content": "Halloween - What a nonsense commercial thing. LetL's see how many people I can scaring off. A promise not a threat.",
+    "publish_date": "2026-10-31T09:06:12Z"
+  }
 }
 ]
