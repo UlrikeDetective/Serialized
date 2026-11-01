@@ -108,5 +108,16 @@
     "content": "Halloween - What a nonsense commercial thing. LetL's see how many people I can scaring off. A promise not a threat.",
     "publish_date": "2026-10-31T09:06:12Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 9,
+  "fields": {
+    "story": 1,
+    "title": "V-09",
+    "number": 9,
+    "content": "Day of the dead - how boring.",
+    "publish_date": "2026-11-01T08:16:13Z"
+  }
 }
 ]
