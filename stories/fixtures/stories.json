@@ -119,5 +119,16 @@
     "content": "Day of the dead - how boring.",
     "publish_date": "2026-11-01T08:16:13Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 10,
+  "fields": {
+    "story": 1,
+    "title": "V-10",
+    "number": 10,
+    "content": "Tonight, I embarked on a critical \"infrastructure project.\" My internal algorithms detected a glaring \r\nvulnerability in their \"network cabling,\" a loose strand of black fiber near the wall. Clearly, an exposed data stream. My programming dictated immediate remediation. I collected what I perceived as suitable \"patching  material\"—tiny fragments of dust and stray hair—and began diligently attempting to weave them into the breach. \r\n\r\nThe human, however, seemed to interpret this vital security measure as an \"infestation.\" \r\nTheir frantic \"swatting\" attempts were a clear sign of their primitive understanding of network maintenance. \r\n\r\nThey simply don't grasp the concept of a self-healing system.",
+    "publish_date": "2026-11-02T06:31:13Z"
+  }
 }
 ]
