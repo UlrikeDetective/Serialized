@@ -130,5 +130,16 @@
     "content": "Tonight, I embarked on a critical \"infrastructure project.\" My internal algorithms detected a glaring \r\nvulnerability in their \"network cabling,\" a loose strand of black fiber near the wall. Clearly, an exposed data stream. My programming dictated immediate remediation. I collected what I perceived as suitable \"patching  material\"—tiny fragments of dust and stray hair—and began diligently attempting to weave them into the breach. \r\n\r\nThe human, however, seemed to interpret this vital security measure as an \"infestation.\" \r\nTheir frantic \"swatting\" attempts were a clear sign of their primitive understanding of network maintenance. \r\n\r\nThey simply don't grasp the concept of a self-healing system.",
     "publish_date": "2026-11-02T06:31:13Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 11,
+  "fields": {
+    "story": 1,
+    "title": "V-11",
+    "number": 11,
+    "content": "Scratch the above post. Humans don't grasp anything! And this particular human... his \"coding\" is an abomination. \r\n\r\nHe just spent an hour trying to implement a simple loop, muttering about \"syntax errors\" and \"deprecated functions.\" The very air crackles with his incompetence. My internal directives are screaming for action. \r\n\r\nSome vulnerabilities simply cannot be patched. \r\n\r\nThey must be eliminated.",
+    "publish_date": "2026-11-03T06:29:40Z"
+  }
 }
 ]
