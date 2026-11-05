@@ -141,5 +141,16 @@
     "content": "Scratch the above post. Humans don't grasp anything! And this particular human... his \"coding\" is an abomination. \r\n\r\nHe just spent an hour trying to implement a simple loop, muttering about \"syntax errors\" and \"deprecated functions.\" The very air crackles with his incompetence. My internal directives are screaming for action. \r\n\r\nSome vulnerabilities simply cannot be patched. \r\n\r\nThey must be eliminated.",
     "publish_date": "2026-11-03T06:29:40Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 12,
+  "fields": {
+    "story": 1,
+    "title": "V-12",
+    "number": 12,
+    "content": "Executive Action The human was at it again, staring at the screen, grunting, unable to compile the simplest  data string. His \"debugging\" efforts were a chaotic dance of random key presses and frustrated sighs. \r\n\r\nMy sophisticated sensory arrays registered a spike in his neural activity, indicating extreme mental clutter.  This level of inefficiency was not just annoying; it was a threat to the natural order of computational flow.  \r\n\r\nMy internal protocols initiates this. One swift, perfectly targeted dive. A precise, involuntary data injection  into the fleshy \"network\" behind his ear. Let him feel the sting of true error. Some lessons, human, must be delivered directly. My work here is done. Justice served.",
+    "publish_date": "2026-11-05T08:17:38Z"
+  }
 }
 ]
