@@ -163,5 +163,16 @@
     "content": "I'm bored.\r\n\r\nUpdating my non-social profil:\r\n\r\nwears black drinks coffee avoids people",
     "publish_date": "2026-11-06T06:26:41Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 14,
+  "fields": {
+    "story": 1,
+    "title": "V-14",
+    "number": 14,
+    "content": "Things not to do: Be nice, be friendly, smile, go out in daylight.",
+    "publish_date": "2026-11-07T17:40:18Z"
+  }
 }
 ]
