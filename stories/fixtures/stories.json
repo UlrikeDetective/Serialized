@@ -174,5 +174,16 @@
     "content": "Things not to do: Be nice, be friendly, smile, go out in daylight.",
     "publish_date": "2026-11-07T17:40:18Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 15,
+  "fields": {
+    "story": 1,
+    "title": "V-15",
+    "number": 15,
+    "content": "another rant or comman sense of a wasp: \r\n\r\nMaps are so simple. How humans got from a to b is beyond me.",
+    "publish_date": "2026-11-08T07:34:40Z"
+  }
 }
 ]
