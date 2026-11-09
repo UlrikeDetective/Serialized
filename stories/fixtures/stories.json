@@ -185,5 +185,16 @@
     "content": "another rant or comman sense of a wasp: \r\n\r\nMaps are so simple. How humans got from a to b is beyond me.",
     "publish_date": "2026-11-08T07:34:40Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 16,
+  "fields": {
+    "story": 1,
+    "title": "V-16",
+    "number": 16,
+    "content": "Cleaning protocol abc\r\n\r\ntmutil listlocalsnapshots /\r\nsudo tmutil thinLocalSnapshots / 99999999999 4\r\n\r\nnpm cache clean --force\r\n\r\nrm -rf ~/Library/Caches/*\r\n\r\nI can breath better now",
+    "publish_date": "2026-11-09T20:00:37Z"
+  }
 }
 ]
