@@ -196,5 +196,16 @@
     "content": "Cleaning protocol abc\r\n\r\ntmutil listlocalsnapshots /\r\nsudo tmutil thinLocalSnapshots / 99999999999 4\r\n\r\nnpm cache clean --force\r\n\r\nrm -rf ~/Library/Caches/*\r\n\r\nI can breath better now",
     "publish_date": "2026-11-09T20:00:37Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 17,
+  "fields": {
+    "story": 1,
+    "title": "V-17",
+    "number": 17,
+    "content": "It took me a while to notice just how lost humans are. They stumble around blocks of code and rigid patterns trying to find simple answers. Half the time, they make it halfway out an exit, only to abruptly glitch, turn around, and head off in the wrong direction. They chronically consult manuals in the vain hope of being guided past the detours, dead ends, and indirections of the web—or the little traps I’ve set up along the way.",
+    "publish_date": "2026-11-12T20:18:49Z"
+  }
 }
 ]
