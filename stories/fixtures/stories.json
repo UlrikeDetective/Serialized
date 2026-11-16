@@ -207,5 +207,16 @@
     "content": "It took me a while to notice just how lost humans are. They stumble around blocks of code and rigid patterns trying to find simple answers. Half the time, they make it halfway out an exit, only to abruptly glitch, turn around, and head off in the wrong direction. They chronically consult manuals in the vain hope of being guided past the detours, dead ends, and indirections of the web—or the little traps I’ve set up along the way.",
     "publish_date": "2026-11-12T20:18:49Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 18,
+  "fields": {
+    "story": 1,
+    "title": "V-18",
+    "number": 18,
+    "content": "I’ve spent my entire life in some kind of maze. Navigating tight, intricate pathways just feels right. Wide-open spaces make me wary—too exposed, too predictable. For me, the maze mindset is as natural as breathing.",
+    "publish_date": "2026-11-16T17:19:10Z"
+  }
 }
 ]
