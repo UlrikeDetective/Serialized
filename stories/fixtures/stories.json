@@ -218,5 +218,16 @@
     "content": "I’ve spent my entire life in some kind of maze. Navigating tight, intricate pathways just feels right. Wide-open spaces make me wary—too exposed, too predictable. For me, the maze mindset is as natural as breathing.",
     "publish_date": "2026-11-16T17:19:10Z"
   }
+},
+{
+  "model": "stories.chapter",
+  "pk": 19,
+  "fields": {
+    "story": 1,
+    "title": "V-19",
+    "number": 19,
+    "content": "To become impatient is pointless, since nothing will be revealed until you get the right entry. To look, think and wait is usually rewarded, though not always predictable, and easy to shrug off when not rewarded.",
+    "publish_date": "2026-11-21T18:35:38Z"
+  }
 }
 ]
